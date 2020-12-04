@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Book from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Music from './Example2';
+import Reciept from './Example3'
 ReactDOM.render(
+  
   <React.StrictMode>
-    <App />
+    <Book/>
+    <hr/>
+    <Music/>
+    <hr/>
+    <Reciept/>
   </React.StrictMode>,
   document.getElementById('root')
 );
